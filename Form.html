@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form to apply for sd</title>
+  </head>
+  <body>
+    <form action="post">
+      <input type="text" id="Textbox" placeholder="Enter here" />
+      <label for="Textbox"> Enter your name </label>
+      <div>
+        <input type="date" id="dob" />
+        <label for="dob"> Enter date of birth</label>
+      </div>
+      <div>
+        <input type="radio" id="male" name="gender" value="Male" />
+        <label for="male">Male </label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="check" name="grades" value="grades" />
+        <label for="check">Above 60% in 10+2</label>
+      </div>
+      <div>
+        <input type="checkbox" id="check1" name="grad" value="grad" />
+        <label for="check1">above 7cgpa in grad</label>
+      </div>
+
+      <div>
+        <label for="textarea">Enter Description</label>
+      </div>
+      <div>
+        <textarea id="textarea" placeholder="Enter something"></textarea>
+      </div>
+      <div>
+        <label for="drop">Jobs : </label>
+        <select id="drop" name="jobs">
+          <option value="Software dev">Software Developer</option>
+          <option value="tester">Software Tester</option>
+          <option value="Analyst">Data Analyst</option>
+        </select>
+      </div>
+    </form>
+  </body>
+</html>
